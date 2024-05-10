@@ -1,0 +1,16 @@
+.contactName {
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+
+.contactDeleteBtn {
+  background-color: rgba(190, 196, 188, 0.658);
+  border: 1px solid black;
+  font-size: 14px;
+  margin: 0 auto;
+}
+
+.contactDeleteBtn:hover {
+  border: 2px solid black;
+  background-color: rgb(243, 21, 21);
+}

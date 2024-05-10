@@ -1,0 +1,47 @@
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.formItem {
+  display: flex;
+  flex-direction: column;
+}
+
+.formField {
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 12px;
+  margin-bottom: 10px;
+  padding: 4px;
+  padding-left: 8px;
+  width: 300px;
+}
+
+.addButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: rgba(190, 196, 188, 0.658);
+  border: 1px solid black;
+  margin: 0;
+}
+
+.addButton:hover {
+  background-color: rgb(156, 231, 94);
+  border: 2px solid black;
+}
+
+.formItem > .errorMessage {
+  font-size: 12px;
+  color: rgb(243, 21, 21);
+  margin-bottom: 10px;
+}

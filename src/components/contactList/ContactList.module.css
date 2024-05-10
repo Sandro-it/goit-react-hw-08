@@ -1,0 +1,17 @@
+.contactsList {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 0;
+}
+.contactsItem {
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 8px 8px 8px 8px;
+  margin: 0 auto;
+  display: flex;
+  width: 160px;
+  font-size: 16px;
+}
