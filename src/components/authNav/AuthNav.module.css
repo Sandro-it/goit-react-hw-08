@@ -1,0 +1,14 @@
+.AuthNavContainer {
+  display: flex;
+  gap: 30px;
+}
+.AuthNavLink {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+}
+.AuthNavLink:hover {
+  transform: scale(1.2);
+  color: #8590c0;
+}

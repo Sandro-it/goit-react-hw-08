@@ -1,0 +1,17 @@
+.logoutButton {
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #b3b8ce;
+  border: 1px solid black;
+}
+.logoutButton:hover {
+  background-color: #8590c0;
+}
+
+.userMenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}

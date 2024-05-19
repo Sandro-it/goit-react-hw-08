@@ -1,0 +1,9 @@
+.AppBarNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid black;
+  width: 1280px;
+}

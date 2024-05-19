@@ -1,0 +1,35 @@
+.loginButton {
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #b3b8ce;
+  border: 1px solid black;
+  margin: 10px 0 0 0;
+}
+.loginButton:hover {
+  background-color: #8590c0;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 70%;
+  left: 35%;
+}
+
+.formField {
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 4px;
+  padding-left: 8px;
+  width: 320px;
+}
+.formField:hover {
+  border: 1px solid #8590c0;
+}

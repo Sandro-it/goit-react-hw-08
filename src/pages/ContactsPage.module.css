@@ -1,0 +1,15 @@
+.contactsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+}
+.contactsSection {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
